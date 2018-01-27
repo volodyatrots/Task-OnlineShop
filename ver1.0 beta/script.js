@@ -25,7 +25,7 @@ $(".rem").on("click",function(){
 
 
 $(".clearButton").click(function(){
-	$(".cartTable td").empty();	
+	$(".rem").click();	
 });	
 });
 
