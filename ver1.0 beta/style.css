@@ -1,0 +1,97 @@
+header{
+    background-color:black;
+	color:white;
+	padding:5px;
+	font-size:35px;
+}
+
+.devices{
+	width:75%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;	
+}
+.device{
+	margin:10px;
+	width:200px;
+	border: 2px solid;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.fotoDevice{
+	width:200px;
+	text-align:center;
+	height:250px;
+	margin:auto;
+}
+.info{
+	margin:5px;
+	overflow: auto;
+    height: 150px;
+}
+.buy{
+	padding:5px;
+	height:45px;
+}
+
+.name{
+	font-weight: bold;
+}
+.price{
+	font-weight: bold;
+	margin-top:30px;
+	display:inline-block;	
+}
+.buyButton{
+	color:white;
+	font-size:25px;
+	background-color:339FFF;
+	float:right;
+	margin-right:10px;
+}
+.cart{
+	color:339FFF;
+	position:fixed;
+	top:65px;
+	right:5px;
+	width:20%;
+	border: 2px solid;
+	
+}
+.nameCart{
+    background-color:339FFF;
+	color:white;
+	padding:5px;
+	font-size:20px;
+}
+.cartTable{
+	padding-left:5px;
+	width: 30%;
+}
+
+
+.cartButtons{
+	height:50px;
+}
+.clearButton{
+	color:white;
+	font-size:15px;
+	background-color:F25540;
+	float:left;
+	margin: 25 0 5 10;
+}
+
+.confirmButton{
+	color:white;
+	font-size:25px;
+	background-color:339FFF;
+	float:right;
+	margin:10px;	
+}
+
+.rem{
+	background-color:white;
+	color:red;
+	border:none;
+	cursor:pointer;
+}
