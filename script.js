@@ -21,11 +21,11 @@ $(".rem").on("click",function(){
     button.count=0;
 	$(this).parent().parent().remove();
 });	
+
+});
 $(".confirmButton").on("click",function(){
     alert("Coming soon...");
 });
-});
-
 
 $(".clearButton").click(function(){
 	$(".rem").click();	
