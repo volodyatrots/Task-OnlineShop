@@ -17,12 +17,13 @@ var name=devices[0].getElementsByClassName("name")[0].innerHTML;
 var elem=$("<tr> <td>"+name+"<td>"+price+"<td>"+this.count+"<td>");
 $(elem).append("<td><button class='rem'>X</button><td>");
 $(".cartTable").append(elem);
+
 $(".rem").on("click",function(){
     button.count=0;
 	$(this).parent().parent().remove();
 });	
-
 });
+
 $(".confirmButton").on("click",function(){
     alert("Coming soon...");
 });
@@ -36,10 +37,8 @@ $(".clearButton").click(function(){
 	 var namesDevices=$("td:first-child");
 	 for(var i=0;i<namesDevices.length;i++){
 		 var nameDevice=namesDevices[i].innerHTML;
-		 var nameObj=namesDevices[i];
 		  if(name==nameDevice){
-			var count=$(nameObj).siblings()[1];
-			count.innerHTML=countDevice;
+			$(namesDevices[i]).siblings()[1].innerHTML=countDevice;
 		 }
 	 }
  }
